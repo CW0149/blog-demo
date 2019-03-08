@@ -1,0 +1,12 @@
+$theme-primary: black;
+
+@import './react-tabs-overrides.scss';
+@import './react-topappbar-overrides.scss';
+
+.mdc-drawer {
+  width: 100%;
+}
+.mdc-list-item {
+  line-height: $sidemenu-item-height;
+  height: $sidemenu-item-height;
+}

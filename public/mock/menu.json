@@ -1,0 +1,42 @@
+[{
+  "name": "web",
+  "target": "https://material.io/develop/web/",
+  "sub": [
+    {
+      "name": "Components",
+      "target": "/article/Components",
+      "sub": [
+        {
+          "name": "Animation0",
+          "target": "/article/1"
+        },
+        {
+          "name": "Animation1",
+          "target": "/article/2"
+        },
+        {
+          "name": "Animation2",
+          "target": "/article/3"
+        }
+      ]
+    },
+    {
+      "name": "Documentation",
+      "target": "/article/document",
+      "sub": [
+        {
+          "name": "Animation3",
+          "target": "/article/4"
+        },
+        {
+          "name": "Animation4",
+          "target": "/article/5"
+        },
+        {
+          "name": "Animation5",
+          "target": "/article/6"
+        }
+      ]
+    }
+  ]
+}]

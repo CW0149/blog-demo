@@ -1,0 +1,15 @@
+@import "@material/tabs/mixins";
+
+.mdc-tab {
+  @include mdc-tab-ink-color(#9e9e9e);
+  min-width: 0;
+  &:not(.mdc-tab--active) {
+
+  }
+  &--active, &:hover {
+    @include mdc-tab-ink-color(white);
+  }
+  &--active {
+    @include mdc-tab-bar-indicator-ink-color(white);
+  }
+}

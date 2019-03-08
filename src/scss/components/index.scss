@@ -1,0 +1,77 @@
+@import 'header';
+@import 'sidemenu';
+@import 'show';
+
+.app-header {
+  position: fixed;
+}
+#app-main {
+  box-sizing: border-box;
+  height: 100%;
+  padding-top: $top-app-bar-height;
+}
+.app-sidemenu, .app-content {
+  overflow: auto;
+}
+.app-sidemenu {
+  float: left;
+  position: relative;
+  width: 280px;
+  height: 100%;
+  border-right: 1px solid $border-grey;
+
+}
+
+.sidemenu-list {
+  ul li{
+    .sidemenu-list__item-text {
+      padding-left: 50px;
+    }
+  }
+  &__item {
+    padding: 0;
+    &--active {
+      background-color: $border-grey;
+    }
+    &-text {
+      box-sizing: border-box;
+      cursor: pointer;
+      display: inline-block;
+      width: 100%;
+      padding: 0 $sidemenu-padding-left;
+      line-height: $sidemenu-item-height;
+    }
+  }
+}
+
+.simple-menu {
+  &__toogle {
+    padding: 24px $sidemenu-padding-left;
+    cursor: pointer;
+  }
+  &__content {
+    left: 20px;
+  }
+  &__title {
+    outline: none;
+    border: 0;
+    font-size: 18px;
+    padding: 0;
+    cursor: pointer;
+    &::after {
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 5px solid #000;
+      content: '';
+      height: 0;
+      position: relative;
+      right: -10px;
+      top: 14px;
+      width: 0;
+    }
+  }
+}
+
+.app-content {
+  overflow: auto;
+}

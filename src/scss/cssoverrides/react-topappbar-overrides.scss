@@ -1,0 +1,14 @@
+@import "@material/top-app-bar/mixins";
+
+.mdc-top-app-bar{
+  @include mdc-top-app-bar-fill-color-accessible($theme-primary);
+  height: $top-app-bar-height;
+  transition: transform .3s cubic-bezier(.4,0,.2,1) .3s,opacity 0s .3s;
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+  background-color: #202124;
+  &__row {
+    height: auto;
+  }
+}
+
+

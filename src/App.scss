@@ -1,0 +1,10 @@
+@import "@material/react-button/index"; // the .scss extension is implied
+@import '@material/react-top-app-bar/index';
+@import '@material/react-material-icon/index';
+@import '@material/tabs/mdc-tabs';
+@import '@material/list/mdc-list';
+@import '@material/menu/mdc-menu';
+@import '@material/drawer/mdc-drawer';
+@import '@material/layout-grid/mdc-layout-grid';
+
+@import './scss/index';

@@ -1,0 +1,47 @@
+.app-header {
+  padding-left: 20px;
+  section {
+    padding: 0;
+  }
+  &-nav {
+    height: 100%;
+    .mdc-tab {
+      font-size: 20px;
+      &__indicator {
+        height: 4px;
+        left: 10px;
+        width: calc(100% - 20px);
+      }
+    }
+  }
+  .app-tab {
+    &-bar {
+      margin-left: auto;
+      margin-right: 160px;
+    }
+    display: inline-block;
+    text-decoration: none;
+    color: $color-grey;
+    line-height: $top-app-bar-height;
+    font-size: 20px;
+    padding: 0 16px;
+    position: relative;
+    letter-spacing: 0.08929em;
+    &--active, &:hover {
+      color: white;
+    }
+    &__indicator {
+      position: absolute;
+      bottom: 0;
+      height: 4px;
+      background-color: transparent;
+      left: 16px;
+      right: 16px;
+    }
+    &--active {
+      .app-tab__indicator {
+        background-color: white;
+      }
+    }
+  }
+}

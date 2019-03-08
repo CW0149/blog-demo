@@ -1,0 +1,28 @@
+{
+  "parent": {
+    "id": 1,
+    "name": "编程"
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "前端开发",
+      "target": "/article/programing/frontend"
+    },
+    {
+      "id": 2,
+      "name": "框架",
+      "target": "/article/programing/framework"
+    },
+    {
+      "id": 3,
+      "name": "后台开发",
+      "target": "/article/programing/backend"
+    },
+    {
+      "id": 4,
+      "name": "机器学习",
+      "target": "/article/programing/machinelearning"
+    }
+  ]
+}

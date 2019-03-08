@@ -1,0 +1,19 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "编程",
+      "target": "/article/programing"
+    },
+    {
+      "id": 2,
+      "name": "随笔",
+      "target": "/article/writting"
+    },
+    {
+      "id": 3,
+      "name": "阅读",
+      "target": "/article/reading"
+    }
+  ]
+}
